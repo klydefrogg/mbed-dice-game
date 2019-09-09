@@ -85,6 +85,9 @@ export default class App extends Component {
       simulationDelay: 500
     }
   }
+  componentDidMount() {
+    window.playGame = ()=>this.simulation();
+  }
 
   startGame(simulation) {
     const firstPlayer = window.randomInt(1,4);

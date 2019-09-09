@@ -1,0 +1,42 @@
+.die {
+    width: 150px;
+    height: 150px;
+    background: #FFF url(../../images/dice-sprite.png);
+    border-radius: 10px;
+    background-size: 900px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+    margin: 25px;
+    display:inline-block;
+}
+.die-frozen, .die-selected {
+    margin-top:0px;
+    margin-bottom:50px;
+}
+.die-selected {
+    box-shadow: inset 0 0 10px 5px rgba(256,0,0,1);
+}
+.die-null {
+    display: none;
+}
+.die-1 {
+    background-position-x: 0px;
+}
+.die-2 {
+    background-position-x: -150px;
+}
+.die-3 {
+    background-position-x: -300px;
+}
+.die-4 {
+    background-position-x: -450px;
+}
+.die-5 {
+    background-position-x: -600px;
+}
+.die-6 {
+    background-position-x: -750px;
+}
+.die-undefined {
+    background: #0f0;
+}

@@ -1,0 +1,25 @@
+.player {
+    background-color: rgb(150,150,150);
+}
+
+.player.currentPlayer {
+    background-color: rgb(225,255,255);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+}
+
+.player.winner {
+    background-color: rgb(255,255,0);
+}
+
+h3.player-number {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2.score {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+}
+.player.currentPlayer h2.score {
+    font-weight: bold;
+}
